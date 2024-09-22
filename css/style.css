@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Titillium Web", sans-serif;
+}
+
+.container{
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+header{
+    background-color: black;
+    width: 100%;
+}
+
+.logo img{
+    width: 25%;
+    cursor: pointer;
+    position: relative;
+    left: -250px
+}
+
+.menu{
+    width: 50%;
+}
+
+.menu nav a{
+    color: #ffff;
+    text-decoration: none;
+    padding-right: 40px;
+    font-size: 18px;
+    position: relative;
+    left: 600px;
+
+    
+}
+
+.menu nav a::after{
+    position: absolute;
+    top: 25px;
+    left: 0;
+    content: " ";
+    width: 0px;
+    height: 4px;
+    transition: 0.5s;
+    background-image: linear-gradient(45deg, #ff2500, #ff7100);
+}
+
+.menu nav a:hover::after{
+    width: 30px;
+}
+
+body{
+    background-image: url(../img/fogo-queimando-a-natureza-selvagem.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    color: #ffff;
+    font-family: "Titillium Web", sans-serif;
+    font-size: 80px;
+    text-align:initial;
+    position: absolute;
+    padding-right: 5%;
+
+}
+
+.cnt{
+    display: flex;
+    justify-content: center;
+
+}
+
+.txt{ 
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    margin-top: 100px;
+    background-color:;
+    position: absolute;
+    left: 200px;
+    top: -15px;
+}
+
+.cnt2{
+    display: flex;
+    justify-content: center;
+
+}
+
+.txt2 h2{
+    width: 500px;
+    height: 500px;
+    border-radius: 15px;
+    margin-top: 100px;
+    background-color:;
+    text-align: left;
+    position: absolute;
+    color: #ffff;
+    left: 10px;
+    top: -0px;
+    
+}
+
+button{
+    background-color: #d82603;
+    position: relative;
+    border: 04px solid rgb(0, 0, 0);
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20px;
+    display: flex;
+    top: 290px;
+    left: 90px;
+    font-size: 20px; 
+    font-family: "Titillium Web", sans-serif;
+    margin: 4px 2px;
+    cursor: pointer; }
+
+    button:hover{
+          /* Estilos quando o mouse estiver sobre o botão */
+  background-color: #d82603; /* Verde mais escuro */
+  transform: scale(1.1); /* Aumenta o tamanho em 10% */
+
+    }
+button a{
+    text-decoration: none;
+    color: #ffff;
+}
